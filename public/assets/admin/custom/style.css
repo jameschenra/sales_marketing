@@ -1,0 +1,9 @@
+.td-action {
+    min-width: 100px;
+}
+
+.td-action a.btn-icon {
+    padding: 2px;
+    width: auto !important;
+    height: auto !important;
+}

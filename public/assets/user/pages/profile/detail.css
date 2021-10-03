@@ -1,0 +1,62 @@
+.professional-category-container {
+    max-width: 800px;
+}
+
+.profile-img-wrapper {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-pills {
+    margin-bottom: 0;
+    background: none;
+}
+
+.detail-right-wrapper {
+    font-size: 16px;
+}
+
+.detail-member-since {
+    line-height: 1.5;
+}
+
+.nav-tabs .nav-item .nav-link .nav-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.service-img-wrapper {
+    min-width: 50px;
+}
+
+.service-img-wrapper img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.detail-profession-row .service-img-wrapper,
+.detail-service-row .service-img-wrapper {
+    min-width: 150px;
+}
+
+#img-user-photo {
+    width: 120px;
+}
+
+.user-logo-mini {
+    width: 36px;
+    height: 36px;
+    object-fit:cover;
+    object-position:top;
+    margin-right: 2px;
+}
+
+.extra-detail-desc {
+    font-size: 14px;
+    color: #8492a6;
+}
+
+.btn-view-service {
+    margin-top: 15px;
+}

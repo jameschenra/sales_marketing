@@ -1,0 +1,140 @@
+.booking-section__title {
+    border-bottom: 2px solid #33B3FF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.booking-office__item {
+    border: 1px solid #a9a9a9;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.booking-office__item:hover {
+    border-color: #33B3FF;
+    cursor: pointer;
+}
+
+.booking-office__item.is-selected {
+    border-color:#33B3FF;
+    border-width: 2px;
+}
+
+.date-picker .datepicker.datepicker-inline {
+    width: 100%;
+}
+
+.date-picker .datepicker-days table tr td.disabled.day {
+    background-color: #EAEAEA;
+}
+
+.booking-section__detail p {
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.booking-section__detail .value {
+    display: inline-block;
+}
+
+.btn-hour {
+    padding: 6px 12px;
+    margin-right: 6px;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #7b7b7b;
+    border: 1px solid #7b7b7b;
+}
+
+.btn-hour.active {
+    background: #1689FC;
+    color: #fff;
+    border: none;
+}
+
+.btn-hour.disabled {
+    background: #d3d3d3;
+    color: #fff;
+    border: none;
+}
+
+/* more service duration */
+.more-service-count {
+    display: inline-block;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 12px;
+    width: 16%;
+    margin-top: 10px;
+    color: #7b7b7b;
+    border: 1px solid #7b7b7b;
+    padding: 6px 12px;
+}
+
+@media (max-width: 1200px) {
+    .more-service-count {
+        width: 22% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .more-service-count {
+        width: 25% !important;
+    }
+}
+
+@media (max-width: 552px) {
+    .more-service-count {
+        width: 26% !important;
+    }
+}
+
+.more-service-count:hover {
+    color: #0056b3;
+}
+
+.more-service-count.active {
+    border: none;
+    color: #fff;
+    background: #1689FC;
+}
+
+.btn-select-location {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-top: -15px;
+}
+
+@media (max-width: 552px) {
+    .btn-select-location {
+        margin-top: 0;
+    }
+}
+
+.validation-error {
+    display: none;
+}
+
+.booking-step-content .card {
+    padding: 20px 10px 10px;
+}
+
+.btn-booking-next, .btn-booking-previous {
+    width: 110px;
+}
+
+.booking-detail .booking-section__detail p {
+    margin-bottom: 0;
+}
+
+.booking-detail .booking-section__detail > div {
+    margin-bottom: 1rem;
+}
+
+.seller-img-wrapper img {
+    object-fit: cover;
+    width: 120px;
+}

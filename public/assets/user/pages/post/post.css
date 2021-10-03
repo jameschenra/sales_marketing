@@ -1,0 +1,47 @@
+.dtail-post-row {
+    background-color: #fafafa;
+}
+
+.detail-post-content-container {
+    padding: 20px 10px;
+}
+
+.post-info {
+    padding: 0;
+}
+
+.post-info li {
+    list-style: none;
+    display: inline-block;
+}
+
+.blog-img {
+    width: 100%;
+    height: auto;
+}
+
+.text-content {
+    line-height: 1.5;
+}
+
+.faq-content .card a.faq[data-toggle=collapse].collapsed:before {
+    top: 10px;
+}
+
+@media screen and ( max-width: 600px ){
+
+    li.page-item {
+
+        display: none;
+    }
+
+    .page-item:first-child,
+    .page-item:nth-child( 2 ),
+    .page-item:nth-last-child( 2 ),
+    .page-item:last-child,
+    .page-item.active,
+    .page-item.disabled {
+
+        display: block;
+    }
+}

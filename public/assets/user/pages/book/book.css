@@ -1,0 +1,26 @@
+.book-single-item {
+    border: 1px solid #ddd;
+    padding: 25px;
+}
+
+.book-single-item p {
+    margin-bottom: 5px;
+}
+
+.detail-middle {
+    border-left: 1px solid #ddd;
+}
+
+.service-logo-mini {
+    width: 160px;
+    height: auto;
+}
+
+.file-list ul li:not(:last-child) {
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 10px;
+}
+
+.book-action-btn {
+    min-width: 150px;
+}

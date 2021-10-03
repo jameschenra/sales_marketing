@@ -1,0 +1,54 @@
+.circle {
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+    padding: 5px;
+}
+
+.dashboard_main .heading .card {
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(146, 146, 146, 0.7);
+    border-radius: 4px;
+    height: 110px;
+}
+
+.dashboard_main .card-body .circle img {
+    max-height: 35px;
+    margin-top: 1px;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.bg-total_balance {
+    background-color: #fcb531;
+}
+
+.bg-available_balance {
+    background-color: #7ad958;
+}
+
+.bg-not_available_balance {
+    background-color: #fcb531;
+}
+
+.bg-total_fee {
+    background-color: #fc6870;
+}
+
+.bg-total_withdrawn {
+    background-color: #5ac8e3;
+}
+
+td.action a {
+    font-size: 13px;
+}
+
+td.action span.fa {
+    font-size: 13px;
+}
+
+@media (max-width: 767px) {
+    table td {
+        white-space: nowrap;
+    }
+}
